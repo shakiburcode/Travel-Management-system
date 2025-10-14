@@ -9,7 +9,6 @@ navBtn.addEventListener("click", function(){
     modal.classList.add('showModal');
 });
 
-
 cancelBtn.addEventListener('click', function(){
     sideNav.classList.remove('show');
     modal.classList.remove('showModal');
