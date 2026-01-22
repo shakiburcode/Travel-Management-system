@@ -7,6 +7,7 @@ $email = $_POST['email'];
 $password = $_POST['massage'];
 // $number = $_POST['number'];
 
+
 // Database connection
 $conn = new mysqli('localhost', 'root', '', 'test');
 if ($conn->connect_error) {
